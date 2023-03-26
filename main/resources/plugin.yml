@@ -1,0 +1,12 @@
+name: rdd
+version: '${project.version}'
+main: sh.smnx.rdd.Rdd
+commands:
+  rdd:
+    description: Jouer a la roue du destin
+    usage: /<command> <player>
+    permission: rdd.rdd_command
+  rdd-list:
+    description: Lister les prix de la roue du destin
+    usage: /<command>
+    permission: rdd.rdd_command
